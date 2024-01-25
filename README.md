@@ -25,7 +25,7 @@ The project includes a pre-trained DistilBERT model (distilbert_model_low_memory
 1. **Clone the Repository:**
     ```bash
     git clone https://github.com/AfaqJ/MuhJam364.git
-    cd <repository-directory>
+    cd MuhJam364
     ```
 
 2. **Build and Run Docker Container:**
