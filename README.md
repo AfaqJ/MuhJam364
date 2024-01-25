@@ -1,6 +1,4 @@
-# MuhJam364
- 
-# FastAPI Text Classification Project
+ # FastAPI Text Classification Project
 
 This project focuses on text classification using the DistilBERT model with a FastAPI backend and a simple HTML frontend.
 
