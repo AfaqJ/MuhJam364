@@ -1,12 +1,12 @@
 import pandas as pd
 import torch
-from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, AdamW
+from transformers import DistilBertTokenizer
 
 import joblib
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
 
-test_data = pd.read_csv('Data/test_data.csv')  # Replace with the actual filename
+test_data = pd.read_csv('Data/test_data.csv')  
 
 # Loading the fine-tuned saved model and label encoder for testing
 loaded_model = joblib.load('distilbert_model_low_memory.joblib')
