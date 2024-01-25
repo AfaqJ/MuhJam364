@@ -4,6 +4,11 @@
 
 This project focuses on text classification using the DistilBERT model with a FastAPI backend and a simple HTML frontend.
 
+**Note:** A detailed project documentation is available in the [documentation.pdf](documentation.pdf) file, providing in-depth insights into the project and the thought process.
+
+The project includes a pre-trained DistilBERT model (distilbert_model_low_memory.joblib), but the data is not published due to restrictions.
+
+
 ## Project Structure
 
 - **Model Training:** The `BARTmodel.py` file contains the code for training the DistilBERT model on a dataset, and the resulting model and label encoder are saved.
@@ -30,6 +35,5 @@ This project focuses on text classification using the DistilBERT model with a Fa
 
 3. **Access the Frontend:**
    Open the HTML code in the `static` folder to interact with the frontend.
-   
-## Important Notes
-The project includes a pre-trained DistilBERT model (distilbert_model_low_memory.joblib), but the data is not published due to restrictions.
+
+
