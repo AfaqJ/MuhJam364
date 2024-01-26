@@ -10,7 +10,7 @@ The project includes a pre-trained DistilBERT model (distilbert_model_low_memory
 
 ## Project Structure
 
-- **Preprocessing:** The `preprocessing.py` file covers data cleaning and preprocessing steps to prepare the dataset for training.
+- **Preprocessing:** The `preprocessing.ipynb` file covers data cleaning and preprocessing steps to prepare the dataset for training.
 
 - **Model Training:** The `BARTmodel.py` file contains the code for training the DistilBERT model on a dataset, and the resulting model and label encoder are saved.
 
